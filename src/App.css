@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100svh;
+}
+
+.card {
+  width: calc(100% - 2rem);
+  max-width: 1920px;
+  height: 966px;
+  background-color: var(--color-white);
+  border: 1px solid #efefef;
+}

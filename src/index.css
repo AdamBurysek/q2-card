@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("./fonts/SourceSansPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-Bold";
+  src: url("./fonts/SourceSansPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-Black";
+  src: url("./fonts/SourceSansPro-Black.otf") format("opentype");
+}
+
+:root {
+  font-family: "SourceSansPro-Regular", sans-serif;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-green: #0d9206;
+  --color-dark-green: #789376;
+  --color-text-shadows: #00000029;
+  --color-button-shadows: #0000002e;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+}
