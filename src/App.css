@@ -4,12 +4,48 @@ section {
   align-items: center;
   width: 100%;
   min-height: 100svh;
+  position: relative;
+}
+
+.task-image {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 20;
+}
+
+.show-image-button {
+  position: absolute;
+  bottom: 10px;
 }
 
 .card {
   width: calc(100% - 2rem);
   max-width: 1920px;
-  height: 966px;
+  height: auto;
   background-color: var(--color-white);
-  border: 1px solid #efefef;
+
+  display: grid;
+}
+
+.grid-item {
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    grid-template-columns: 52.7% auto;
+    grid-template-rows: 34.5% auto 33%;
+    height: clamp(700px, 648px + 16.3vw, 966px);
+    border: 1px solid #efefef;
+  }
+
+  .top-container {
+    grid-area: span 3;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .card {
+    grid-template-rows: 38.5% 28.5% 33%;
+  }
 }

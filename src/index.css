@@ -17,9 +17,13 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-green: #0d9206;
+  --color-button: #ff8800;
+  --color-button-hover: #ff9720;
+  --color-button-active: #f28100;
+  --color-paragraph: #7d7d7d;
   --color-dark-green: #789376;
-  --color-text-shadows: #00000029;
-  --color-button-shadows: #0000002e;
+  --color-text-shadow: #00000029;
+  --color-button-shadow: #0000002e;
 }
 
 *,
@@ -34,4 +38,26 @@ body {
   min-width: 320px;
   overflow-x: hidden;
   background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 1.887rem + 3.064vw, 5.625rem);
+  font-family: "SourceSansPro-Black", sans-serif;
+  line-height: clamp(3rem, 2.301rem + 3.493vw, 6.563rem);
+  word-spacing: 100vw;
+  margin: 4.8% 4%;
+  text-shadow: 0px 16px 21px var(--color-text-shadow);
+}
+
+b {
+  position: absolute;
+  font-family: "SourceSansPro-Bold", sans-serif;
+  color: var(--color-green);
+  margin-left: 10.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: var(--color-white);
+  }
 }

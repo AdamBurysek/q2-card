@@ -1,0 +1,66 @@
+.card-text {
+  font-size: clamp(1rem, 0.853rem + 0.735vw, 1.75rem);
+  line-height: clamp(1.75rem, 1.652rem + 0.49vw, 2.25rem);
+  color: var(--color-paragraph);
+  margin: 1% 4%;
+  max-width: 75%;
+}
+
+.card-text:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  left: -2px;
+  top: 0;
+  background-color: var(--color-green);
+}
+
+.book-button {
+  position: absolute;
+  width: 203px;
+  height: 61px;
+  border: none;
+  background-color: #ff8800;
+  color: var(--color-white);
+  font-size: 25px;
+  margin: 0 4%;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #ff9720;
+}
+
+.book-button:active {
+  background-color: #f28100;
+}
+
+.repeat-grid {
+  position: absolute;
+  right: 5px;
+  top: -51%;
+}
+
+@media screen and (max-width: 1400px) {
+  .repeat-grid {
+    top: -5%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .book-button {
+    position: relative;
+    margin-top: 40px;
+  }
+  .repeat-grid {
+    top: -51%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .repeat-grid {
+    display: none;
+  }
+}
