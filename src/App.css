@@ -70,6 +70,7 @@ section {
     grid-area: span 3;
     margin: 0;
   }
+
   .more-trips {
     position: absolute;
     left: 5px;
@@ -80,6 +81,7 @@ section {
   .card {
     grid-template-rows: 38.5% 28.5% 33%;
   }
+
   .more-trips {
     bottom: 50px;
   }

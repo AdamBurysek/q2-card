@@ -82,9 +82,11 @@
   .facebook-link {
     top: 17%;
   }
+
   .twitter-link {
     top: 27%;
   }
+
   .share-link {
     top: 70%;
   }
@@ -104,9 +106,11 @@
   .share-link {
     top: 0px;
   }
+
   .twitter-link {
     left: 90px;
   }
+
   .share-link {
     right: 2%;
   }
