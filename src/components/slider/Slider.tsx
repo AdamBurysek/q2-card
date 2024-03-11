@@ -1,10 +1,10 @@
+import { useRef } from "react";
 import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
 
 import { images } from "./images";
 
 import "./slider.css";
 import "swiper/css";
-import { useRef } from "react";
 
 const Slider = () => {
   const sliderRef = useRef<SwiperRef>(null);
@@ -15,13 +15,7 @@ const Slider = () => {
 
   return (
     <div className="grid-item slider-container">
-      <Swiper
-        ref={sliderRef}
-        slidesPerView={"auto"}
-        loop
-        speed={1400}
-        className="swiper"
-      >
+      <Swiper ref={sliderRef} slidesPerView={"auto"} loop className="swiper">
         {images.map((slide, index) => (
           <SwiperSlide className="slide" key={index}>
             <img className="slide-image" src={slide.image}></img>

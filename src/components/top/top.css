@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1400px) {
   .main-image {
-    right: 5%;
+    right: 6%;
     bottom: 0;
   }
 }
@@ -27,9 +27,10 @@
 @media screen and (max-width: 1023px) {
   .main-image {
     width: clamp(315px, 185px + 40.5vw, 600px);
-    right: -40%;
-    bottom: 55%;
+    right: -50%;
+    bottom: 62%;
     transform: translate(-40%, 50%);
     margin: 50px 0 10px 0;
+    scale: 1.2;
   }
 }
