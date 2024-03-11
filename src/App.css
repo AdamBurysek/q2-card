@@ -19,11 +19,11 @@ section {
 }
 
 .card {
+  position: relative;
   width: calc(100% - 2rem);
   max-width: 1920px;
   height: auto;
   background-color: var(--color-white);
-  position: relative;
   display: grid;
 }
 
@@ -32,7 +32,7 @@ section {
 }
 
 .more-trips {
-  position: absolute;
+  position: relative;
   bottom: 8px;
   left: 5px;
   cursor: pointer;
@@ -62,6 +62,9 @@ section {
 
   .top-container {
     grid-area: span 3;
+  }
+  .more-trips {
+    position: absolute;
   }
 }
 
