@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import Slider from "./components/slider/Slider";
-import Text from "./components/text/Text";
-import Title from "./components/title/Title";
 import Top from "./components/top/Top";
+import Title from "./components/title/Title";
+import Text from "./components/text/Text";
+import Slider from "./components/slider/Slider";
 
 import "./App.css";
 
@@ -20,6 +20,10 @@ function App() {
         <Title />
         <Text />
         <Slider />
+        <a className="more-trips">
+          <img src="./more-trips-arrow.svg" />
+          <p>More Short Trips</p>
+        </a>
       </div>
 
       <button

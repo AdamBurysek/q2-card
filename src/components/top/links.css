@@ -1,5 +1,11 @@
-.link-container {
+.link-container,
+.social-link,
+.social-link-text,
+.social-link svg {
   position: absolute;
+}
+
+.link-container {
   top: 0;
   left: 34px;
   width: 60px;
@@ -7,7 +13,6 @@
 }
 
 .social-link {
-  position: absolute;
   width: 60px;
   height: 60px;
   border: 1px solid var(--color-green);
@@ -18,7 +23,6 @@
 
 .social-link-text {
   display: none;
-  position: absolute;
   font-size: 26px;
   color: var(--color-white);
   left: 68px;
@@ -31,7 +35,6 @@
 }
 
 .facebook-link svg {
-  position: absolute;
   left: 20px;
   top: 12px;
 }
@@ -41,7 +44,6 @@
 }
 
 .twitter-link svg {
-  position: absolute;
   left: 14px;
   top: 16px;
 }
@@ -51,7 +53,6 @@
 }
 
 .share-link svg {
-  position: absolute;
   left: 13px;
   top: 13px;
   scale: 1.1;
@@ -92,7 +93,7 @@
 @media screen and (max-width: 1023px) {
   .link-container {
     top: auto;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     height: 60px;
     width: 95%;

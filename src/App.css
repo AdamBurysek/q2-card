@@ -23,12 +23,33 @@ section {
   max-width: 1920px;
   height: auto;
   background-color: var(--color-white);
-
+  position: relative;
   display: grid;
 }
 
 .grid-item {
   position: relative;
+}
+
+.more-trips {
+  position: absolute;
+  bottom: 8px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.more-trips p {
+  font-size: 26px;
+  color: var(--color-dark-green);
+  position: absolute;
+  text-wrap: nowrap;
+  top: 35px;
+  left: 115px;
+}
+
+.more-trips:hover img {
+  scale: 1.1;
+  transition: 0.5s;
 }
 
 @media screen and (min-width: 1024px) {
@@ -47,5 +68,8 @@ section {
 @media screen and (min-width: 1400px) {
   .card {
     grid-template-rows: 38.5% 28.5% 33%;
+  }
+  .more-trips {
+    bottom: 50px;
   }
 }

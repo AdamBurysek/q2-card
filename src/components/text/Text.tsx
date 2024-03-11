@@ -1,7 +1,7 @@
 import "./text.css";
 
 const Text = () => (
-  <div className="grid-item text-container">
+  <div className="grid-item">
     <p className="card-text">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

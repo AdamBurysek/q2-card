@@ -1,5 +1,5 @@
 const Title = () => (
-  <div className="grid-item title-container">
+  <div className="grid-item">
     <h1>
       Mekong Delta Tour, <b>Vietnam</b>
     </h1>
