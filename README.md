@@ -5,8 +5,8 @@ Interview task for Q2 intertnet agency.
 ## Technologies Used
 
 - **React**
-- **Swiper:**
-- **Framer Motion:**
+- **Swiper**
+- **Framer Motion**
 
 ## Installation
 
