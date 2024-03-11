@@ -7,7 +7,7 @@ const Title = () => (
       initial={{ x: -30, opacity: 0 }}
       transition={{ duration: 2 }}
     >
-      Mekong Delta Tour,{" "}
+      Mekong Delta Tour,
       <motion.b
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}

@@ -7,25 +7,14 @@ section {
   position: relative;
 }
 
-.task-image {
-  position: absolute;
-  opacity: 0.5;
-  z-index: 20;
-}
-
-.show-image-button {
-  position: absolute;
-  bottom: 10px;
-}
-
 .card {
   position: relative;
+  display: grid;
   width: 100%;
-  margin: 0 0 0 2rem;
   max-width: 1920px;
   height: auto;
   background-color: var(--color-white);
-  display: grid;
+  margin: 0 0 0 2rem;
 }
 
 .grid-item {
@@ -44,12 +33,12 @@ section {
 }
 
 .more-trips p {
-  font-size: 26px;
-  color: var(--color-dark-green);
   position: absolute;
-  text-wrap: nowrap;
   top: 35px;
   left: 115px;
+  font-size: 26px;
+  color: var(--color-dark-green);
+  text-wrap: nowrap;
 }
 
 .more-trips:hover img {

@@ -3,15 +3,15 @@
 }
 
 .swiper {
-  width: calc(100% + 3px);
   position: relative;
+  width: calc(100% + 3px);
   top: 20.5%;
   left: -3px;
   margin-bottom: 60px;
 }
 
 .swiper .swiper-slide {
-  width: clamp(19.375rem, 1.875rem + 70vw, 23.75rem);
+  width: clamp(310px, 30px + 70vw, 380px);
 }
 
 .swiper .swiper-slide img {
@@ -39,6 +39,7 @@
   color: var(--color-green);
   font-size: 26px;
   right: 120px;
+  padding-bottom: 4px;
 }
 
 .arrow-button {

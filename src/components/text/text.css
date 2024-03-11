@@ -22,7 +22,7 @@
   width: 203px;
   height: 61px;
   border: none;
-  background-color: #ff8800;
+  background-color: var(--color-button);
   color: var(--color-white);
   font-size: 27px;
   margin: 0 4%;
@@ -31,11 +31,11 @@
 }
 
 .book-button:hover {
-  background-color: #ff9720;
+  background-color: var(--color-button-hover);
 }
 
 .book-button:active {
-  background-color: #f28100;
+  background-color: var(--color-button-active);
 }
 
 .repeat-grid {
@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 550px) {
   .repeat-grid {
     display: none;
   }

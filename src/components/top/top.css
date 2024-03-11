@@ -1,8 +1,8 @@
 .main-image {
   position: relative;
   width: clamp(315px, 174px + 44vw, 1035px);
-  right: -3.5%;
   bottom: 11%;
+  right: -3.5%;
 }
 
 @media screen and (max-width: 1750px) {
@@ -27,8 +27,8 @@
 @media screen and (max-width: 1023px) {
   .main-image {
     width: clamp(315px, 185px + 40.5vw, 600px);
-    right: -50%;
     bottom: 62%;
+    right: -45%;
     transform: translate(-40%, 50%);
     margin: 50px 0 10px 0;
     scale: 1.2;

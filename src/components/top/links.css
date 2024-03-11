@@ -6,10 +6,10 @@
 }
 
 .link-container {
-  top: 0;
-  left: 34px;
   width: 60px;
   height: 100%;
+  top: 0;
+  left: 34px;
 }
 
 .social-link {

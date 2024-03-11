@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
+import { motion } from "framer-motion";
 
 import { images } from "./images";
 
@@ -15,10 +16,22 @@ const Slider = () => {
 
   return (
     <div className="grid-item slider-container">
-      <Swiper ref={sliderRef} slidesPerView={"auto"} loop className="swiper">
+      <Swiper
+        ref={sliderRef}
+        slidesPerView={"auto"}
+        loop
+        className="swiper"
+        speed={1400}
+      >
         {images.map((slide, index) => (
           <SwiperSlide className="slide" key={index}>
-            <img className="slide-image" src={slide.image}></img>
+            <motion.img
+              className="slide-image"
+              src={slide.image}
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: index, delay: index / 3 }}
+            />
           </SwiperSlide>
         ))}
         <button className="see-more-button" onClick={handleNext}>
