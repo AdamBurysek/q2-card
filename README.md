@@ -21,7 +21,7 @@ To run this application locally, follow these steps:
 
 Once the development server is running, you can access the application by navigating to **http://localhost:5173/** in your web browser.
 
-# Possible improvements:
+### Possible improvements:
 
 - Performance - images are not optimised
 - Layout Shift - after images are loaded, layout shift happend
